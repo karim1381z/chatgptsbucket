@@ -2,6 +2,9 @@ name: Share Audio for Review
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -14,7 +17,9 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: phase8-audio
-          path: audition_phase8_1_contextual_beats3_4_5.wav
+          name: phase8-2-review
+          path: |
+            audition_phase8_2_contextual_beats3_4_5.wav
+            audition_phase8_2_words.json
           if-no-files-found: error
           retention-days: 1

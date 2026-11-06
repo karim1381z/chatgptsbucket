@@ -1,0 +1,380 @@
+[
+  {
+    "word": "وقتی",
+    "start": 0.0,
+    "end": 0.38,
+    "start_frame": 0,
+    "end_frame": 11,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "رسیدن",
+    "start": 0.38,
+    "end": 0.854,
+    "start_frame": 11,
+    "end_frame": 26,
+    "confidence": 0.985,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "وسط",
+    "start": 0.854,
+    "end": 1.139,
+    "start_frame": 26,
+    "end_frame": 34,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "پل",
+    "start": 1.139,
+    "end": 1.329,
+    "start_frame": 34,
+    "end_frame": 40,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "سازه",
+    "start": 1.329,
+    "end": 1.708,
+    "start_frame": 40,
+    "end_frame": 51,
+    "confidence": 0.961,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "زیر",
+    "start": 1.708,
+    "end": 1.993,
+    "start_frame": 51,
+    "end_frame": 60,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "پاشون",
+    "start": 1.993,
+    "end": 2.468,
+    "start_frame": 60,
+    "end_frame": 74,
+    "confidence": 0.988,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "مثل",
+    "start": 2.468,
+    "end": 2.752,
+    "start_frame": 74,
+    "end_frame": 83,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "گهواره",
+    "start": 2.752,
+    "end": 3.322,
+    "start_frame": 83,
+    "end_frame": 100,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "شروع",
+    "start": 3.322,
+    "end": 3.701,
+    "start_frame": 100,
+    "end_frame": 111,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "کرد",
+    "start": 3.701,
+    "end": 3.986,
+    "start_frame": 111,
+    "end_frame": 120,
+    "confidence": 0.943,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "به",
+    "start": 3.986,
+    "end": 4.176,
+    "start_frame": 120,
+    "end_frame": 125,
+    "confidence": 0.974,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "تاب",
+    "start": 4.176,
+    "end": 4.46,
+    "start_frame": 125,
+    "end_frame": 134,
+    "confidence": 0.971,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "خوردن",
+    "start": 4.46,
+    "end": 4.935,
+    "start_frame": 134,
+    "end_frame": 148,
+    "confidence": 0.971,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "یکیشون",
+    "start": 4.935,
+    "end": 5.408,
+    "start_frame": 148,
+    "end_frame": 162,
+    "confidence": 0.986,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "شروع",
+    "start": 5.408,
+    "end": 5.723,
+    "start_frame": 162,
+    "end_frame": 172,
+    "confidence": 0.974,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "کرد",
+    "start": 5.723,
+    "end": 5.959,
+    "start_frame": 172,
+    "end_frame": 179,
+    "confidence": 0.986,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "به",
+    "start": 5.959,
+    "end": 6.116,
+    "start_frame": 179,
+    "end_frame": 183,
+    "confidence": 0.946,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "سوت",
+    "start": 6.116,
+    "end": 6.353,
+    "start_frame": 183,
+    "end_frame": 191,
+    "confidence": 0.988,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "زدن",
+    "start": 6.353,
+    "end": 6.589,
+    "start_frame": 191,
+    "end_frame": 198,
+    "confidence": 0.95,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "بقیهشون",
+    "start": 6.589,
+    "end": 7.14,
+    "start_frame": 198,
+    "end_frame": 214,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "هم",
+    "start": 7.14,
+    "end": 7.297,
+    "start_frame": 214,
+    "end_frame": 219,
+    "confidence": 0.972,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "با",
+    "start": 7.297,
+    "end": 7.455,
+    "start_frame": 219,
+    "end_frame": 224,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "ریتم",
+    "start": 7.455,
+    "end": 7.77,
+    "start_frame": 224,
+    "end_frame": 233,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "سوتش",
+    "start": 7.77,
+    "end": 8.085,
+    "start_frame": 233,
+    "end_frame": 243,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "قدم",
+    "start": 8.085,
+    "end": 8.321,
+    "start_frame": 243,
+    "end_frame": 250,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "برمیداشتن",
+    "start": 8.321,
+    "end": 9.03,
+    "start_frame": 250,
+    "end_frame": 271,
+    "confidence": 0.97,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "فکر",
+    "start": 9.03,
+    "end": 9.266,
+    "start_frame": 271,
+    "end_frame": 278,
+    "confidence": 0.989,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "میکنید",
+    "start": 9.266,
+    "end": 9.739,
+    "start_frame": 278,
+    "end_frame": 292,
+    "confidence": 0.978,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "وایسادن",
+    "start": 9.739,
+    "end": 10.29,
+    "start_frame": 292,
+    "end_frame": 309,
+    "confidence": 0.976,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "نه",
+    "start": 10.794,
+    "end": 10.966,
+    "start_frame": 324,
+    "end_frame": 329,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "بابا",
+    "start": 10.966,
+    "end": 11.31,
+    "start_frame": 329,
+    "end_frame": 339,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "تازه",
+    "start": 11.31,
+    "end": 11.654,
+    "start_frame": 339,
+    "end_frame": 350,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "با",
+    "start": 11.654,
+    "end": 11.825,
+    "start_frame": 350,
+    "end_frame": 355,
+    "confidence": 0.982,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "تمام",
+    "start": 11.825,
+    "end": 12.169,
+    "start_frame": 355,
+    "end_frame": 365,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "قدرت",
+    "start": 12.169,
+    "end": 12.513,
+    "start_frame": 365,
+    "end_frame": 375,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "پا",
+    "start": 12.513,
+    "end": 12.685,
+    "start_frame": 375,
+    "end_frame": 381,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "کوبیدن",
+    "start": 12.685,
+    "end": 13.201,
+    "start_frame": 381,
+    "end_frame": 396,
+    "confidence": 0.984,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "و",
+    "start": 13.201,
+    "end": 13.373,
+    "start_frame": 396,
+    "end_frame": 401,
+    "confidence": 0.99,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "رفتن",
+    "start": 13.373,
+    "end": 13.716,
+    "start_frame": 401,
+    "end_frame": 411,
+    "confidence": 0.986,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "ته",
+    "start": 13.716,
+    "end": 13.888,
+    "start_frame": 411,
+    "end_frame": 417,
+    "confidence": 0.952,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  },
+  {
+    "word": "رودخونه",
+    "start": 13.888,
+    "end": 14.49,
+    "start_frame": 417,
+    "end_frame": 435,
+    "confidence": 0.955,
+    "confidence_calculation": "mean_top1_posterior_probability_over_acoustic_frames"
+  }
+]
