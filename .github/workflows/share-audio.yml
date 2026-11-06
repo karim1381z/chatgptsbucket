@@ -1,0 +1,20 @@
+name: Share Audio for Review
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: phase8-audio
+          path: audition_phase8_1_contextual_beats3_4_5.wav
+          if-no-files-found: error
+          retention-days: 1
