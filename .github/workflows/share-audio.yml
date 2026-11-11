@@ -17,9 +17,9 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: chatterbox-0-9-punctuation-review
+          name: gemini-voice-A-act-directed-review
           path: |
-            audition_chatterbox_beats4_5_exaggeration_0_9_punctuation.wav
-            audition_chatterbox_beats4_5_exaggeration_0_9_punctuation_metadata.json
+            audition_A_act_directed.wav
+            audition_A_act_directed_metadata.json
           if-no-files-found: error
           retention-days: 1

@@ -1,0 +1,63 @@
+{
+  "objective": "Voice A Multi-Act Performance Audition",
+  "model": "gemini-3.8-flash-tts",
+  "voice_id": "voice_t0o0ghsms38n",
+  "display_name": "Warm Storyteller",
+  "architecture": "Single-speaker continuous multi-part synthesis with per-act speech_metadata styling",
+  "generation_latency_seconds": 6.99,
+  "usage_metadata": {
+    "promptTokenCount": 60,
+    "candidatesTokenCount": 321,
+    "totalTokenCount": 381,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 60
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "AUDIO",
+        "tokenCount": 321
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "sections": [
+    {
+      "act": "Act 1: Playful Narration",
+      "text": "یکیشون شروع کرد به سوت زدن، بقیه هم با ریتم سوتش قدم برمیداشتن.",
+      "style": "Warm, relaxed, conversational Iranian Persian storytelling with subtle playfulness and natural rhythm. The narrator sounds genuinely engaged, as if telling an amusing story to a friend."
+    },
+    {
+      "act": "Act 2: Curiosity and Suspense",
+      "text": "فکر میکنید وایسادن؟ <short pause>",
+      "style": "Genuinely curious and slightly teasing rhetorical question. Natural rising Iranian Persian intonation. Create anticipation without sounding theatrical or artificially exaggerated."
+    },
+    {
+      "act": "Act 3: Comedic Punchline",
+      "text": "نه بابا، تازه با تمام قدرت پا کوبیدن و رفتن ته رودخونه!",
+      "style": "Amused, mischievous and energetic comedic delivery. Give نه بابا a crisp, playful element of surprise. Continue with lively, naturally flowing storytelling. Make the final phrase memorable and humorous, without shouting or forced laughter."
+    }
+  ],
+  "api_request_structure": {
+    "endpoint": "models/gemini-3.8-flash-tts:generateContent",
+    "voice_config": "prebuilt_voice_config.voice_name = 'voice_t0o0ghsms38n'",
+    "parts_count": 3,
+    "parts_schema": "[{'text': ..., 'speech_metadata': {'style': ...}}]"
+  },
+  "technical_measurements": {
+    "sha256": "E103AEBF8CFF21F9EA771413D482FE927CE14870AD13BED3170910C695A8A68E",
+    "file_size_bytes": 624028,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "channel_layout": "Mono",
+    "bit_depth": 16,
+    "audio_format": "16-bit PCM (pcm_s16le)",
+    "duration_seconds": 12.84,
+    "total_frames": 308160,
+    "integrated_loudness_lufs": -20.2,
+    "loudness_range_lra": 4.5
+  },
+  "timestamp": "2026-11-11T23:54:05Z"
+}
