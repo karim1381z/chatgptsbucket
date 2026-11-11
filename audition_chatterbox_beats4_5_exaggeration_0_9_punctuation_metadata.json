@@ -1,0 +1,29 @@
+{
+  "model": "mehdi-hf/chatterbox-farsi",
+  "demo_space": "mehrovich/chatterbox-farsi-demo",
+  "hardware": "Hugging Face ZeroGPU (NVIDIA A10G)",
+  "objective": "Audition 03: Punctuation Control Test",
+  "voice_reference": {
+    "path": "E:\\Content\\Persian-Animated-Shorts\\out\\auditions\\prompts\\prompt_farid_punchline.wav",
+    "duration_seconds": 4.42
+  },
+  "exact_submitted_text": "یکیشون شروع کرد به سوت زدن، بقیه هم با ریتم سوتش قدم برمیداشتن. فکر میکنید وایسادن؟ نه بابا، تازه با تمام قدرت پا کوبیدن و رفتن ته رودخونه!",
+  "inference_parameters": {
+    "exaggeration": 0.9,
+    "cfg_weight": 0.5,
+    "temperature": 0.7,
+    "seed": 42
+  },
+  "technical_measurements": {
+    "output_file": "audition_chatterbox_beats4_5_exaggeration_0_9_punctuation.wav",
+    "sha256": "2DF89A02C144EA6E9C1006A9376D039EF02B8FFE1B98DE1C461C377F7F82CAAB",
+    "file_size_bytes": 385004,
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "channel_layout": "Mono",
+    "bit_depth": 16,
+    "audio_format": "16-bit PCM (pcm_s16le)",
+    "duration_seconds": 8.02,
+    "total_frames": 192480
+  }
+}
