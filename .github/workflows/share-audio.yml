@@ -17,8 +17,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: chatterbox-baseline-review
+          name: chatterbox-exaggeration-0-9-review
           path: |
-            audition_chatterbox_beats4_5_baseline.wav
+            audition_chatterbox_beats4_5_exaggeration_0_9.wav
           if-no-files-found: error
           retention-days: 1
