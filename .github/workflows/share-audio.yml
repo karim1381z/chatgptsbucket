@@ -17,9 +17,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: phase8-2-review
+          name: chatterbox-baseline-review
           path: |
-            audition_phase8_2_contextual_beats3_4_5.wav
-            audition_phase8_2_words.json
+            audition_chatterbox_beats4_5_baseline.wav
           if-no-files-found: error
           retention-days: 1
