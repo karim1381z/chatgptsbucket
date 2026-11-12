@@ -1,0 +1,62 @@
+{
+  "project": "Persian Animated Shorts - Broughton Suspension Bridge (1831)",
+  "language": "Persian (Farsi)",
+  "review_type": "Visual Animation Implementation Review",
+  "review_target": "ChatGPT Visual Reviewer",
+  "approved_narrator": {
+    "voice_name": "Warm Storyteller",
+    "voice_id": "voice_t0o0ghsms38n",
+    "model": "gemini-3.8-flash-tts",
+    "audio_duration_seconds": 68.98,
+    "total_animation_frames": 2069,
+    "fps": 30
+  },
+  "visual_pipeline": {
+    "engine": "Remotion 4.0 + Three.js + React Three Fiber (@react-three/fiber)",
+    "aesthetic": "Cel-shaded storybook toon with custom InkPass edge detection contours",
+    "target_resolution": "1080x1920 (9:16 vertical short-form)",
+    "preview_resolution": "540x960 (half-scale render proxy)"
+  },
+  "previews_included": [
+    {
+      "filename": "preview_1_opening.mp4",
+      "size_bytes": 8194534,
+      "duration_seconds": 9.05,
+      "frame_range": [0, 270],
+      "storyboard_sequences": [
+        "Sequence 1: Establishing Broughton Bridge over River Irwell (1831)",
+        "Sequence 2: 60th Rifle Corps marching column arrives at the bridge"
+      ],
+      "visual_highlights": "Atmospheric morning fog, toon ink outline on suspension chains, low-poly soldier brigade marching"
+    },
+    {
+      "filename": "preview_2_stomp_and_failure.mp4",
+      "size_bytes": 15315963,
+      "duration_seconds": 14.14,
+      "frame_range": [727, 1150],
+      "storyboard_sequences": [
+        "Sequence 7: Synchronous 4/4 cadence march stomping",
+        "Sequence 8: Mechanical resonance wave amplification and creaking sway",
+        "Sequence 9: Catastrophic bolt failure, chain detachment, and deck collapse"
+      ],
+      "visual_highlights": "Camera cadence pulse, sinusoidal deck wave deformation, sudden structural tilt and drop"
+    },
+    {
+      "filename": "preview_3_aftermath.mp4",
+      "size_bytes": 1885340,
+      "duration_seconds": 5.72,
+      "frame_range": [1150, 1320],
+      "storyboard_sequences": [
+        "Sequence 10: Riverbed aftermath in shallow water and mud",
+        "Sequence 11: Bewildered survivors scrambling onto the river bank"
+      ],
+      "visual_highlights": "Low water level (historical 2ft depth fact-checked), splintered planks, soldiers bewildered in mud"
+    }
+  ],
+  "contact_sheet": {
+    "filename": "bridge_visual_review_contact_sheet.jpg",
+    "dimensions": "1188x1644",
+    "layout": "3 columns x 2 rows annotated grid",
+    "coverage": "6 representative keyframes spanning opening, approach, stomp, resonance, collapse, and aftermath"
+  }
+}
