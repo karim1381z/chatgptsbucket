@@ -1,0 +1,43 @@
+name: Share Visual Previews for Review
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'preview/**'
+      - 'media/**'
+      - 'visual-review/**'
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate preview video and contact sheet assets
+        run: |
+          echo "=== Staged Review Assets ==="
+          ls -lh
+          test -f preview_1_opening.mp4 || { echo "Missing preview_1_opening.mp4"; exit 1; }
+          test -f preview_2_stomp_and_failure.mp4 || { echo "Missing preview_2_stomp_and_failure.mp4"; exit 1; }
+          test -f preview_3_aftermath.mp4 || { echo "Missing preview_3_aftermath.mp4"; exit 1; }
+          test -f bridge_visual_review_contact_sheet.jpg || { echo "Missing contact sheet"; exit 1; }
+          test -f bridge_visual_review_metadata.json || { echo "Missing metadata json"; exit 1; }
+          echo "All visual review assets successfully validated."
+
+      - name: Upload Visual Review Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bridge-visual-review
+          path: |
+            preview_1_opening.mp4
+            preview_2_stomp_and_failure.mp4
+            preview_3_aftermath.mp4
+            bridge_visual_review_contact_sheet.jpg
+            bridge_visual_review_metadata.json
+          if-no-files-found: error
+          retention-days: 7
